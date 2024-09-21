@@ -6,79 +6,198 @@
     <title>Alsaeid Mandour - Mobile Developer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
-        h1, h2 {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
             color: #333;
         }
+
+        header {
+            background-color: #0366d6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .profile-image {
+            flex: 1;
+            text-align: center;
+            margin-bottom: 20px;
+            max-width: 200px;
+        }
+
+        .profile-image img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #0366d6;
+        }
+
+        .profile-details {
+            flex: 2;
+            margin-left: 20px;
+        }
+
+        h2 {
+            color: #0366d6;
+            border-bottom: 2px solid #0366d6;
+            padding-bottom: 5px;
+        }
+
         ul {
             list-style: none;
             padding-left: 0;
         }
+
         ul li {
             margin-bottom: 10px;
         }
+
         a {
             color: #0366d6;
             text-decoration: none;
         }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0366d6;
+            color: white;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .profile-container {
+                flex-direction: column;
+            }
+
+            .contact-item {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
-<h1>Alsaeid Mandour</h1>
-<p><strong>Mobile Developer (Android, Flutter)</strong></p>
+<header>
+    <h1>Alsaeid Mandour</h1>
+    <p>Mobile Developer (Android, Flutter) 🚀</p>
+</header>
 
-<h2>Contact Information</h2>
-<ul>
-    <li><strong>Location:</strong> El Mahalla El Kubra, Al Gharbia, Egypt</li>
-    <li><strong>Phone:</strong> +20 155 984 7533</li>
-    <li><strong>Email:</strong> <a href="mailto:alsaidmandor8888@gmail.com">alsaidmandor8888@gmail.com</a></li>
-    <li><strong>GitHub:</strong> <a href="https://github.com/alsaidmandor">github.com/alsaidmandor</a></li>
-</ul>
+<main>
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="IMG_20231201_201814.jpg" alt="Alsaeid Mandour">
+        </div>
+        <div class="profile-details">
+            <div class="section">
+                <h2>Contact Information 📞</h2>
+                <div class="contact">
+                    <div class="contact-item"><strong>Location:</strong> El Mahalla El Kubra, Al Gharbia, Egypt 🌍</div>
+                    <div class="contact-item"><strong>Phone:</strong> +20 155 984 7533</div>
+                    <div class="contact-item"><strong>Email:</strong> <a href="mailto:alsaidmandor8888@gmail.com">alsaidmandor8888@gmail.com</a> ✉️</div>
+                    <div class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/alsaidmandor">github.com/alsaidmandor</a> 🐙</div>
+                </div>
+            </div>
 
-<h2>Professional Summary</h2>
-<p>Experienced Mobile Developer with 3+ years of expertise in building dynamic Android and Flutter applications. Proficient in Dart, Kotlin, and Java with a strong background in creating efficient, scalable, and user-friendly mobile apps. Committed to continuous learning and adapting to emerging technologies, with a focus on delivering high-quality code and enhancing user experiences.</p>
+            <div class="section">
+                <h2>Professional Summary</h2>
+                <p>Experienced Mobile Developer with 3+ years of expertise in building dynamic Android and Flutter applications. Proficient in Dart, Kotlin, and Java with a strong background in creating efficient, scalable, and user-friendly mobile apps. Committed to continuous learning and adapting to emerging technologies, with a focus on delivering high-quality code and enhancing user experiences.</p>
+            </div>
 
-<h2>Technical Skills</h2>
-<ul>
-    <li><strong>Languages:</strong> Dart, Java, Kotlin</li>
-    <li><strong>Frameworks:</strong> Flutter, Android</li>
-    <li><strong>Databases:</strong> Hive, SQLite, Firebase, Room</li>
-    <li><strong>API Development:</strong> REST API, Web API, Firebase</li>
-    <li><strong>RX Programming:</strong> RxJava, Kotlin Coroutines, RxDart</li>
-    <li><strong>Tools & Platforms:</strong> GitHub, Bitbucket, Android Studio, Visual Studio Code, Google Cloud (Maps, GeoLocation, Storage, Cloud Functions, Firestore)</li>
-    <li><strong>Architecture & Design:</strong> MVVM, MVP, MVC, Bloc, Dio, Geolocator, Internet Connection Checker</li>
-    <li><strong>Other:</strong> Push Notifications (FCM), Problem Solving, Data Structures, Algorithms, Design Patterns, CI/CD pipelines</li>
-</ul>
+            <div class="section">
+                <h2>Technical Skills 🛠️</h2>
+                <ul>
+                    <li><strong>Languages:</strong> Dart, Java, Kotlin</li>
+                    <li><strong>Frameworks:</strong> Flutter, Android</li>
+                    <li><strong>Databases:</strong> Hive, SQLite, Firebase, Room</li>
+                    <li><strong>API Development:</strong> REST API, Web API, Firebase</li>
+                    <li><strong>RX Programming:</strong> RxJava, Kotlin Coroutines, RxDart</li>
+                    <li><strong>Tools & Platforms:</strong> GitHub, Bitbucket, Android Studio, Visual Studio Code, Google Cloud (Maps, GeoLocation, Storage, Cloud Functions, Firestore)</li>
+                    <li><strong>Architecture & Design:</strong> MVVM, MVP, MVC, Bloc, Dio, Geolocator, Internet Connection Checker</li>
+                    <li><strong>Other:</strong> Push Notifications (FCM), Problem Solving, Data Structures, Algorithms, Design Patterns, CI/CD pipelines</li>
+                </ul>
+            </div>
 
-<h2>Professional Experience</h2>
-<p><strong>Mobile Developer - Softagi</strong><br>
-    June 2021 – January 2022, Nasr, Egypt</p>
+            <div class="section">
+                <h2>Professional Experience 💼</h2>
+                <p><strong>Mobile Developer - Softagi</strong><br>
+                    June 2021 – January 2022, Nasr, Egypt</p>
+            </div>
 
-<h2>Education</h2>
-<p><strong>Bachelor of Computer Science</strong><br>
-    Mansoura University, Faculty of Computer and Information<br>
-    Graduated: 2022</p>
+            <div class="section">
+                <h2>Education 🎓</h2>
+                <p><strong>Bachelor of Computer Science</strong><br>
+                    Mansoura University, Faculty of Computer and Information<br>
+                    Graduated: 2022</p>
+            </div>
 
-<h2>Projects</h2>
-<ul>
-    <li><strong>News App:</strong> Building an application to display political, economic, and sports news. Utilizing Sqflite, flutter_bloc, Dio, Intl, and responsive_builder for a robust and responsive design.<br>
-        GitHub: <a href="https://github.com/alsaidmandor/news_app">News App Repository</a></li>
-    <li><strong>Islamic App:</strong> A multi-featured religious app with functionalities including Quran, prayer times, Qibla direction, and Azkar. Integrated with APIs for real-time data and utilized Flutter for a seamless cross-platform experience.<br>
-        GitHub: <a href="https://github.com/alsaidmandor/islamic">Islamic App Repository</a></li>
-    <li><strong>Bazar:</strong> Developed a mobile application for booking books using Flutter. Implemented features such as a comprehensive book catalog, user authentication, and payment integration. Utilized REST APIs for backend communication and integrated Firebase for real-time data and authentication. Applied BLoC (Business Logic Component) for efficient state management and a scalable architecture. Enhanced user experience with features like reviews, notifications, and an intuitive interface. Set up CI/CD pipelines to automate testing, building, and deployment processes for continuous integration and delivery.<br>
-        GitHub: <a href="https://github.com/alsaidmandor/bazar">Bazar Repository</a></li>
-</ul>
+            <div class="section">
+                <h2>Projects 📚</h2>
+                <ul>
+                    <li><strong>News App:</strong> Building an application to display political, economic, and sports news. Utilizing Sqflite, flutter_bloc, Dio, Intl, and responsive_builder for a robust and responsive design.<br>
+                        GitHub: <a href="https://github.com/alsaidmandor/news_app">News App Repository</a></li>
+                    <li><strong>Islamic App:</strong> A multi-featured religious app with functionalities including Quran, prayer times, Qibla direction, and Azkar. Integrated with APIs for real-time data and utilized Flutter for a seamless cross-platform experience.<br>
+                        GitHub: <a href="https://github.com/alsaidmandor/islamic">Islamic App Repository</a></li>
+                    <li><strong>Bazar:</strong> Developed a mobile application for booking books using Flutter. Implemented features such as a comprehensive book catalog, user authentication, and payment integration. Utilized REST APIs for backend communication and integrated Firebase for real-time data and authentication. Applied BLoC (Business Logic Component) for efficient state management and a scalable architecture. Enhanced user experience with features like reviews, notifications, and an intuitive interface. Set up CI/CD pipelines to automate testing, building, and deployment processes for continuous integration and delivery.<br>
+                        GitHub: <a href="https://github.com/alsaidmandor/bazar">Bazar Repository</a></li>
+                </ul>
+            </div>
 
-<h2>Languages</h2>
-<ul>
-    <li><strong>Arabic:</strong> Native</li>
-    <li><strong>English:</strong> Fair</li>
-</ul>
+            <div class="section">
+                <h2>Languages 🌐</h2>
+                <ul>
+                    <li><strong>Arabic:</strong> Native</li>
+                    <li><strong>English:</strong> Fair</li>
+                </ul>
+            </div>
 
-<h2>Objective</h2>
-<p>Seeking challenging opportunities as a Mobile Developer in a reputable company where I can leverage my skills in Flutter and Android development to contribute to impactful projects and grow professionally.</p>
+            <div class="section">
+                <h2>Objective 🎯</h2>
+                <p>Seeking challenging opportunities as a Mobile Developer in a reputable company where I can leverage my skills in Flutter and Android development to contribute to impactful projects and grow professionally.</p>
+            </div>
+        </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Alsaeid Mandour</p>
+</footer>
 </body>
 </html>
