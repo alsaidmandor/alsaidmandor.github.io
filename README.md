@@ -1,82 +1,129 @@
-# Alsaeed Mohamed Mandor 
+# Hi there, I'm Alsaeid mandor 👋
 
-AL Gharbia, El-Mahalla El-Kubra, Egypt 
+**Mid-Senior Flutter Developer** with over 3 years of experience building scalable, high-performance enterprise mobile applications. I specialize in **Flutter**, **Clean Architecture**, **SOLID principles**, and state management solutions like **Bloc/Cubit** and **Provider**. 
 
-📞 +20 1559847533 | ✉️ alsaidmandor8888@gmail.com  
-🌐 GitHub | LinkedIn 
+My industry experience spans diverse domains including **ERP, FinTech, Real Estate, Ride-Hailing, Consultation, and E-Learning platforms**. I have strong expertise in consuming REST APIs, integrating Firebase, implementing payment gateways (HyperPay & Stripe), optimizing app performance, and delivering robust, production-ready applications.
 
-## PROFILE 
+---
 
-Mid-Senior Flutter Developer with 3+ years of experience building scalable enterprise mobile applications using Flutter, Clean Architecture, SOLID principles, Bloc/Cubit and Provider. Experienced in ERP, FinTech, Real Estate, Ride-Hailing, Consultation and E-Learning platforms. Strong expertise in REST APIs, Firebase, payment gateway integration (HyperPay & Stripe), performance optimization, and delivering production-ready applications. 
+## 📫 Contact With Me
 
-## SKILLS 
+- **Business Email :** [alsaidmandor8888@gmail.com](mailto:alsaidmandor8888@gmail.com)
+- **Phone :** +20 1559847533
 
-* **Languages:** Dart (Advanced), Java (Advanced), SQL (Beginner). 
-* **Frameworks/SDKs:** Flutter (Advanced). 
-* **State Management:** BLoC, Provider. 
-* **Architecture Patterns:** Clean Architecture, SOLID Principles, Design Patterns
-* **Version Control:** Git 
-* **Tools:** Android Studio, Visual Studio Code 
-* **Technologies:** Dio, Retrofit, Firebase, FCM, Google Maps, Hive, Localization, Local Notification, Payment Gateway. 
+<p align="left">
+  <a href="https://linkedin.com/in/alsaidmandor" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:alsaidmandor8888@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://github.com/alsaidmandor" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
 
-## EDUCATION 
+---
 
-**Bachelor’s Degree in Computer Science**  
-Mansoura University, Faculty of Computers & Information  
-Graduation Year: 2022 
+## 🛠️ Skills & Technologies
 
-## MILITARY SERVICES 
+**Mobile Development:**
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 
-Completed mandatory service (Oct 2022 - Dec 2023). 
+**Backend & Database:**
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-## EXPERIENCE 
+**Tools & Architecture:**
+![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-333333?style=for-the-badge)
+![SOLID](https://img.shields.io/badge/SOLID-333333?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-* **Elnooronline** | Alexandria, Egypt | Sept 2025 – progress 
-* **Rmoztec** | Mansoura, Egypt | Jul 2024 – Jul 2025 
+---
 
-## PROJECTS 
+## 💼 Samples From My Projects
 
-### مدارسكم App 
+<div align="right" dir="rtl">
 
-Allows you to learn the student's schedule and schedule of exams Latest news, homework, lessons and school fees.  
-It is also possible to correspond to any teacher through the application or the management. 
-* **Links:** Google play | App Store 
+### مدارسكم App
+يتيح لك معرفة جدول الطالب وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن مراسلة أي معلم من خلال التطبيق أو الإدارة.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-### دليلكلم App 
+### دليلكلم App
+تطبيق دليلك هو دليل شامل وتطبيق فريد يهدف إلى تسهيل الحياة اليومية من خلال توفير مواقع الخدمات، والميزات، والمواعيد، والعروض. حمل التطبيق وتواصل مع دليلك.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-Your guide application Comprehensive guide Your guide is a unique application that aims to facilitate daily life by providing services locations, features, dates and offers.  
-Download the application and connect to your guide. 
-* **Links:** Google play | App Store 
+### مدرسه الاوائل App
+تطبيق مدرسة الأوائل الخاصة يتيح للطالب معرفة الجدول الدراسي وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن لأي معلم التواصل من خلال التطبيق أو مراسلة الإدارة.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-### مدرسه الاوائل App 
+### Abber App (عبر)
+تطبيق عبر يقدم استشارات متخصصة في الأحلام والرؤى من خلال متخصصين وخبراء في مجال التعبير والتفسير والتحليل.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-The application of the first private school Allows the student to know the study schedule and examination schedule And the latest news, assignments, lessons and school fees Also, any teacher can communicate through the application or write to the administration. 
-* **Links:** Google play | App Store 
+### محامينا App
+تطبيق محامينا يتيح لك العثور على محامٍ لتولي قضيتك في دقائق، كل ما هو مطلوب منك هو كتابة تفاصيل القضية ثم اختيار المحامي المناسب للعمل عليها. التطبيق يتيح لك التواصل مع عدد كبير من المحامين المحترفين بناءً على موقعك، كما يمكنك التواصل مع المحامي وإرسال تفاصيل القضية إليه أو حجز موعد معه.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-### Abber App (عبر) 
+### Taxi driver & Taxi User App
+iQTaxi هو تطبيق ذكي لحجز المشاوير مصمم لربط المستخدمين بالسائقين القريبين بسرعة وكفاءة. يوفر التطبيق تجربة سلسة وبديهية لحجز المشاوير، وتتبع السائقين في الوقت الفعلي، وإدارة المدفوعات. يتميز بواجهة مستخدم حديثة، وإدارة حالة قوية، وتكامل خلفي موثوق لضمان أداء سلس وقابلية للتوسع.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-cross application Provides specialized consultations in dreams, dreams and visions through specialists and experts in the field of expression, interpretation and analysis. 
-* **Links:** Google play | App Store 
+### NOVA X
+NOVA X هي منصة تعليمية حديثة مصممة لتزويد الطلاب بمحتوى تعليمي عالي الجودة من خلال مجموعة متنوعة من الدورات والبرامج التدريبية ومقاطع الفيديو التعليمية. هذه الموارد مصممة لمساعدة الطلاب على تطوير مهاراتهم وتحقيق أفضل النتائج الأكاديمية. يقدم التطبيق مزيجًا من الدورات المجانية والمدفوعة في مختلف المجالات، مع محتوى تعليمي يسهل الوصول إليه ومنظم جيدًا يمكن الطلاب من التعلم في أي وقت وفي أي مكان.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<hr>
 
-### محامينا App 
+### غرفة تبوك | TABUK CHAMBER
+غرفة تبوك هي منصة رقمية شاملة مصممة لتزويد المستخدمين بوصول سهل إلى جميع الأنشطة والتعاميم واللجان والمقالات والخدمات التي تقدمها المنظمة.
+<br><br>
+<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
 
-The application of our attorneys allows you to find a lawyer to take over your case in minutes, All that is required of you is to write down the details of the case and then choose the right lawyer to work on.  
-Our lawyers' application allows you to communicate with a large number of professional lawyers based on your location, You can also contact the lawyer and send the case details to him or book an appointment with him. 
-* **Links:** Google play | App Store 
+</div>
 
-### Taxi driver & Taxi User App 
+---
 
-iQTaxi is a smart ride-hailing mobile application designed to connect users with nearby drivers quickly and efficiently. The app provides an intuitive and seamless experience for booking rides, tracking drivers in real time, and managing payments. It features a modern UI/UX, robust state management, and reliable backend integration to ensure smooth performance and scalability. 
-* **Links:** Google play | App Store 
+## 📈 GitHub Stats
 
-### NOVA X 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alsaidmandor&show_icons=true&locale=en&theme=radical" alt="alsaidmandor stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alsaidmandor&show_icons=true&locale=en&layout=compact&theme=radical" alt="top languages" height="150" />
+</p>
 
-NOVA X is a modern educational platform designed to provide students with high-quality learning content through a diverse range of courses, training programs, and educational videos.  
-These resources are designed to help students develop their skills and achieve optimal academic results.  
-The app offers a mix of free and paid courses across various fields, with easily accessible and well-organized learning content that empowers students to learn anytime, anywhere. 
-* **Links:** Google play | App Store 
+---
 
-### غرفة تبوك | TABUK CHAMBER 
-
-غرفة تبوك is a comprehensive digital platform designed to provide users with easy access to all activities, circulars, committees, articles, and services offered by the organization. 
-* **Links:** Google play | App Store
+## ☕ Support Me
+<p align="center">
+  <a href="https://www.buymeacoffee.com/alsaidmandor" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50">
+  </a>
+</p>
