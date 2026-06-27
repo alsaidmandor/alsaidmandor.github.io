@@ -1,283 +1,631 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alsaeed Mohamed Mandor - Mid-Senior Flutter Developer</title>
+    <title>Alsaeid Mandor | Mid-Senior Flutter Developer</title>
+    <meta name="description" content="Mid-Senior Flutter Developer with over 3 years of experience building scalable, high-performance enterprise mobile applications.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
+        :root {
+            --bg-color: #0b0f19;
+            --surface-color: rgba(20, 27, 45, 0.7);
+            --primary-color: #02569B; /* Flutter Blue */
+            --secondary-color: #0175C2; /* Dart Blue */
+            --accent-color: #38bdf8;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --card-border: rgba(255, 255, 255, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            box-sizing: border-box;
         }
 
-        header {
-            background-color: #0366d6;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
+        html {
+            scroll-behavior: smooth;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 36px;
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(2, 86, 155, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(1, 117, 194, 0.15), transparent 25%);
+            background-attachment: fixed;
         }
 
-        main {
-            max-width: 900px;
-            margin: 20px auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+        /* Glassmorphism utility */
+        .glass {
+            background: var(--surface-color);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
         }
 
-        .profile-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-wrap: wrap;
-        }
-
-        .profile-image {
-            flex: 1;
-            text-align: center;
-            margin-bottom: 20px;
-            max-width: 200px;
-        }
-
-        .profile-image img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border: 3px solid #0366d6;
-        }
-
-        .profile-details {
-            flex: 2;
-            margin-left: 20px;
+        /* Typography */
+        h1, h2, h3 {
+            font-weight: 800;
+            line-height: 1.2;
         }
 
         h2 {
-            color: #0366d6;
-            border-bottom: 2px solid #0366d6;
-            padding-bottom: 5px;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, #fff, var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        ul li {
-            margin-bottom: 10px;
+        p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
         }
 
         a {
-            color: #0366d6;
+            color: var(--accent-color);
             text-decoration: none;
+            transition: var(--transition);
         }
 
-        .section {
-            margin-bottom: 20px;
+        a:hover {
+            color: #fff;
         }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0366d6;
-            color: white;
-        }
-
-        .contact {
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1rem 5%;
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
+            align-items: center;
+            z-index: 1000;
+            border-radius: 0 0 16px 16px;
+            border-top: none;
         }
 
-        .contact-item {
-            width: 48%;
-            margin-bottom: 10px;
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #fff;
+        }
+
+        .nav-logo span {
+            color: var(--secondary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-main);
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5%;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--primary-color);
+            padding: 4px;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 30px rgba(2, 86, 155, 0.5);
+            transition: var(--transition);
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 50px rgba(1, 117, 194, 0.7);
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            background: none;
+            -webkit-text-fill-color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .hero-desc {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            font-size: 1.2rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            color: #fff;
+            transition: var(--transition);
+        }
+
+        .social-links a.github { background-color: #181717; }
+        .social-links a.linkedin { background-color: #0077b5; }
+        .social-links a.email { background-color: #d14836; }
+
+        .social-links a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5rem 5%;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .skill-category {
+            padding: 2rem;
+            transition: var(--transition);
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .skill-category h3 {
+            margin-bottom: 1.5rem;
+            color: var(--text-main);
+            font-size: 1.3rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill-tag {
+            background: rgba(255,255,255,0.05);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: var(--transition);
+        }
+
+        .skill-tag:hover {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            transform: scale(1.05);
+        }
+
+        .skill-tag i, .skill-tag img {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            transition: var(--transition);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+            border-color: rgba(2, 86, 155, 0.4);
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #fff;
         }
 
         .project-desc {
+            font-family: 'Tajawal', sans-serif;
             direction: rtl;
             text-align: right;
-            background-color: #f9f9f9;
-            padding: 10px;
-            border-radius: 5px;
-            margin: 10px 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            border-right: 4px solid #0366d6;
-            line-height: 1.6;
+            margin-bottom: 2rem;
+            flex-grow: 1;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #cbd5e1;
+            border-right: 3px solid var(--primary-color);
+            padding-right: 15px;
         }
 
         .project-links {
-            margin-top: 10px;
-            font-size: 0.9em;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
         }
 
-        @media (max-width: 600px) {
-            .profile-container {
-                flex-direction: column;
-            }
+        .btn {
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: var(--transition);
+        }
 
-            .contact-item {
-                width: 100%;
-            }
+        .btn-play {
+            background-color: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-play:hover {
+            background-color: #3b82f6;
+            color: #fff;
+        }
+
+        .btn-apple {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: #e2e8f0;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-apple:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Stats Section */
+        .stats-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stats-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: var(--transition);
+        }
+
+        .stats-img:hover {
+            transform: scale(1.02);
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 5% 2rem;
+            text-align: center;
+            border-top: 1px solid var(--card-border);
+            margin-top: 4rem;
+        }
+
+        .support-btn img {
+            height: 50px;
+            transition: var(--transition);
+        }
+
+        .support-btn:hover img {
+            transform: scale(1.05);
+        }
+
+        .copyright {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        /* Scroll Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero h2 { font-size: 1.5rem; }
+            .nav-links { display: none; } /* Simplified nav for mobile */
         }
     </style>
 </head>
 <body>
-<header>
-    <h1>Alsaeed Mohamed Mandor</h1>
-    <p>Mid-Senior Flutter Developer 🚀</p>
-</header>
 
-<main>
-    <div class="profile-container">
-        <div class="profile-image">
-            <img src="IMG_20231201_201814.jpg" alt="Alsaeed Mohamed Mandor">
+    <!-- Navigation -->
+    <nav class="glass">
+        <div class="nav-logo">Alsaeid<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="IMG_20231201_201814.jpg" alt="Alsaeid Mandor" class="profile-img reveal">
+        <h1 class="reveal">Hi there, I'm Alsaeid Mandor <span style="display:inline-block; animation: wave 2s infinite transform-origin: 70% 70%;">👋</span></h1>
+        <h2 class="reveal">Mid-Senior Flutter Developer</h2>
+        
+        <p class="hero-desc reveal">
+            With over 3 years of experience building scalable, high-performance enterprise mobile applications. 
+            I specialize in <strong>Flutter</strong>, <strong>Clean Architecture</strong>, <strong>SOLID principles</strong>, 
+            and state management solutions like <strong>Bloc/Cubit</strong> and <strong>Provider</strong>.<br><br>
+            My industry experience spans diverse domains including ERP, FinTech, Real Estate, Ride-Hailing, Consultation, and E-Learning platforms.
+        </p>
+
+        <div class="social-links reveal">
+            <a href="https://linkedin.com/in/alsaidmandor" target="_blank" class="linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/alsaidmandor" target="_blank" class="github" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:alsaidmandor8888@gmail.com" class="email" title="Email"><i class="fas fa-envelope"></i></a>
         </div>
-        <div class="profile-details">
-            <div class="section">
-                <h2>Contact Information 📞</h2>
-                <div class="contact">
-                    <div class="contact-item"><strong>Location:</strong> El-Mahalla El-Kubra, AL Gharbia, Egypt 🌍</div>
-                    <div class="contact-item"><strong>Phone:</strong> +20 155 984 7533</div>
-                    <div class="contact-item"><strong>Email:</strong> <a href="mailto:alsaidmandor8888@gmail.com">alsaidmandor8888@gmail.com</a> ✉️</div>
-                    <div class="contact-item"><strong>GitHub:</strong> <a href="https://github.com/alsaidmandor">github.com/alsaidmandor</a> 🐙</div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container" id="skills">
+        <h2 class="reveal">Skills & Technologies</h2>
+        <div class="skills-grid">
+            
+            <div class="skill-category glass reveal">
+                <h3><i class="fas fa-mobile-alt" style="color: var(--primary-color);"></i> Mobile Development</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag"><img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" alt="Flutter"> Flutter</div>
+                    <div class="skill-tag"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt="Dart"> Dart</div>
+                    <div class="skill-tag"><i class="fab fa-android" style="color:#3DDC84"></i> Android</div>
+                    <div class="skill-tag"><i class="fab fa-java" style="color:#ED8B00"></i> Java</div>
+                    <div class="skill-tag"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Kotlin_Icon.svg" alt="Kotlin"> Kotlin</div>
                 </div>
             </div>
 
-            <div class="section">
-                <h2>Professional Summary</h2>
-                <p>Mid-Senior Flutter Developer with 3+ years of experience building scalable enterprise mobile applications using Flutter, Clean Architecture, SOLID principles, Bloc/Cubit and Provider. Experienced in ERP, FinTech, Real Estate, Ride-Hailing, Consultation and E-Learning platforms. Strong expertise in REST APIs, Firebase, payment gateway integration (HyperPay & Stripe), performance optimization, and delivering production-ready applications.</p>
+            <div class="skill-category glass reveal">
+                <h3><i class="fas fa-server" style="color: var(--primary-color);"></i> Backend & Database</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag"><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg" alt="Firebase"> Firebase</div>
+                    <div class="skill-tag"><i class="fas fa-database" style="color:#005C84"></i> MySQL</div>
+                    <div class="skill-tag"><i class="fab fa-php" style="color:#777BB4"></i> PHP</div>
+                    <div class="skill-tag"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="C#"> C#</div>
+                </div>
             </div>
 
-            <div class="section">
-                <h2>Technical Skills 🛠️</h2>
-                <ul>
-                    <li><strong>Languages:</strong> Dart (Advanced), Java (Advanced), SQL (Beginner)</li>
-                    <li><strong>Frameworks/SDKs:</strong> Flutter (Advanced)</li>
-                    <li><strong>State Management:</strong> BLoC, Provider</li>
-                    <li><strong>Architecture Patterns:</strong> Clean Architecture, SOLID Principles, Design Patterns</li>
-                    <li><strong>Version Control:</strong> Git</li>
-                    <li><strong>Tools:</strong> Android Studio, Visual Studio Code</li>
-                    <li><strong>Technologies:</strong> Dio, Retrofit, Firebase, FCM, Google Maps, Hive, Localization, Local Notification, Payment Gateway</li>
-                </ul>
+            <div class="skill-category glass reveal">
+                <h3><i class="fas fa-tools" style="color: var(--primary-color);"></i> Tools & Architecture</h3>
+                <div class="skill-tags">
+                    <div class="skill-tag"><i class="fas fa-layer-group"></i> Clean Architecture</div>
+                    <div class="skill-tag"><i class="fas fa-cubes"></i> SOLID</div>
+                    <div class="skill-tag"><i class="fab fa-git-alt" style="color:#F05032"></i> Git</div>
+                    <div class="skill-tag"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png" alt="Postman"> Postman</div>
+                    <div class="skill-tag"><i class="fab fa-figma" style="color:#F24E1E"></i> Figma</div>
+                </div>
             </div>
 
-            <div class="section">
-                <h2>Professional Experience 💼</h2>
-                <ul>
-                    <li><strong>Elnooronline</strong> | Alexandria, Egypt | Sept 2025 – Present</li>
-                    <li><strong>Rmoztec</strong> | Mansoura, Egypt | Jul 2024 – Jul 2025</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Education & Military Services 🎓</h2>
-                <ul>
-                    <li><strong>Bachelor’s Degree in Computer Science</strong><br>
-                        Mansoura University, Faculty of Computers & Information (Graduation Year: 2022)</li>
-                    <li><strong>Military Services:</strong> Completed mandatory service (Oct 2022 - Dec 2023).</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Projects 📚</h2>
-                <ul>
-                    <li>
-                        <strong>مدارسكم App</strong>
-                        <div class="project-desc">
-                            يتيح لك معرفة جدول الطالب وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن مراسلة أي معلم من خلال التطبيق أو الإدارة.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>دليلكلم App</strong>
-                        <div class="project-desc">
-                            تطبيق دليلك هو دليل شامل وتطبيق فريد يهدف إلى تسهيل الحياة اليومية من خلال توفير مواقع الخدمات، والميزات، والمواعيد، والعروض. حمل التطبيق وتواصل مع دليلك.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>مدرسه الاوائل App</strong>
-                        <div class="project-desc">
-                            تطبيق مدرسة الأوائل الخاصة يتيح للطالب معرفة الجدول الدراسي وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن لأي معلم التواصل من خلال التطبيق أو مراسلة الإدارة.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Abber App (عبر)</strong>
-                        <div class="project-desc">
-                            تطبيق عبر يقدم استشارات متخصصة في الأحلام والرؤى من خلال متخصصين وخبراء في مجال التعبير والتفسير والتحليل.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>محامينا App</strong>
-                        <div class="project-desc">
-                            تطبيق محامينا يتيح لك العثور على محامٍ لتولي قضيتك في دقائق، كل ما هو مطلوب منك هو كتابة تفاصيل القضية ثم اختيار المحامي المناسب للعمل عليها. التطبيق يتيح لك التواصل مع عدد كبير من المحامين المحترفين بناءً على موقعك، كما يمكنك التواصل مع المحامي وإرسال تفاصيل القضية إليه أو حجز موعد معه.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>Taxi driver & Taxi User App</strong>
-                        <div class="project-desc">
-                            iQTaxi هو تطبيق ذكي لحجز المشاوير مصمم لربط المستخدمين بالسائقين القريبين بسرعة وكفاءة. يوفر التطبيق تجربة سلسة وبديهية لحجز المشاوير، وتتبع السائقين في الوقت الفعلي، وإدارة المدفوعات. يتميز بواجهة مستخدم حديثة، وإدارة حالة قوية، وتكامل خلفي موثوق لضمان أداء سلس وقابلية للتوسع.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>NOVA X</strong>
-                        <div class="project-desc">
-                            NOVA X هي منصة تعليمية حديثة مصممة لتزويد الطلاب بمحتوى تعليمي عالي الجودة من خلال مجموعة متنوعة من الدورات والبرامج التدريبية ومقاطع الفيديو التعليمية. هذه الموارد مصممة لمساعدة الطلاب على تطوير مهاراتهم وتحقيق أفضل النتائج الأكاديمية. يقدم التطبيق مزيجًا من الدورات المجانية والمدفوعة في مختلف المجالات، مع محتوى تعليمي يسهل الوصول إليه ومنظم جيدًا يمكن الطلاب من التعلم في أي وقت وفي أي مكان.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                    <br>
-                    <li>
-                        <strong>غرفة تبوك | TABUK CHAMBER</strong>
-                        <div class="project-desc">
-                            غرفة تبوك هي منصة رقمية شاملة مصممة لتزويد المستخدمين بوصول سهل إلى جميع الأنشطة والتعاميم واللجان والمقالات والخدمات التي تقدمها المنظمة.
-                        </div>
-                        <div class="project-links">
-                            <strong>Links:</strong> <a href="#">Google Play</a> | <a href="#">App Store</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </div>
-</main>
+    </section>
 
-<footer>
-    <p>&copy; 2026 Alsaeed Mohamed Mandor</p>
-</footer>
+    <!-- Projects Section -->
+    <section class="container" id="projects">
+        <h2 class="reveal">Samples From My Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">مدارسكم App</h3>
+                <div class="project-desc">
+                    يتيح لك معرفة جدول الطالب وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن مراسلة أي معلم من خلال التطبيق أو الإدارة.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooronline.madaresco&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/your-schools-%D9%85%D8%AF%D8%A7%D8%B1%D8%B3%D9%83%D9%85/id1459034556?l=ar" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">دليلكلم App</h3>
+                <div class="project-desc">
+                    تطبيق دليلك هو دليل شامل وتطبيق فريد يهدف إلى تسهيل الحياة اليومية من خلال توفير مواقع الخدمات، والميزات، والمواعيد، والعروض. حمل التطبيق وتواصل مع دليلك.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooronline.dalilkoom&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/%D8%AF%D9%84%D9%8A%D9%84%D9%83%D9%85-%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D9%84/id1544250802?l=ar" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">مدرسه الاوائل App</h3>
+                <div class="project-desc">
+                    تطبيق مدرسة الأوائل الخاصة يتيح للطالب معرفة الجدول الدراسي وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن لأي معلم التواصل من خلال التطبيق أو مراسلة الإدارة.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooronline.alawael&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D8%A9/id1631025008?l=ar" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">Abber App (عبر)</h3>
+                <div class="project-desc">
+                    تطبيق عبر يقدم استشارات متخصصة في الأحلام والرؤى من خلال متخصصين وخبراء في مجال التعبير والتفسير والتحليل.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.app.abber&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/%D8%B9%D8%A8%D8%B1-abber/id6450137342?l=ar" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">محامينا App</h3>
+                <div class="project-desc">
+                    تطبيق محامينا يتيح لك العثور على محامٍ لتولي قضيتك في دقائق، كل ما هو مطلوب منك هو كتابة تفاصيل القضية ثم اختيار المحامي المناسب للعمل عليها. التطبيق يتيح لك التواصل مع عدد كبير من المحامين المحترفين بناءً على موقعك.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooronline.muhamina&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/%D9%85%D8%AD%D8%A7%D9%85%D9%8A%D9%86%D8%A7/id1419653949" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">Taxi driver & Taxi User App</h3>
+                <div class="project-desc">
+                    iQTaxi هو تطبيق ذكي لحجز المشاوير مصمم لربط المستخدمين بالسائقين القريبين بسرعة وكفاءة. يوفر التطبيق تجربة سلسة وبديهية لحجز المشاوير، وتتبع السائقين في الوقت الفعلي، وإدارة المدفوعات.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooronline.taxi.user&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/iq-taxi/id6757102454" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">NOVA X</h3>
+                <div class="project-desc">
+                    NOVA X هي منصة تعليمية حديثة مصممة لتزويد الطلاب بمحتوى تعليمي عالي الجودة من خلال مجموعة متنوعة من الدورات والبرامج التدريبية ومقاطع الفيديو التعليمية.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooreonline.elms&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/nova-x/id6761002440" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-card glass reveal">
+                <h3 class="project-title">غرفة تبوك | TABUK CHAMBER</h3>
+                <div class="project-desc">
+                    غرفة تبوك هي منصة رقمية شاملة مصممة لتزويد المستخدمين بوصول سهل إلى جميع الأنشطة والتعاميم واللجان والمقالات والخدمات التي تقدمها المنظمة.
+                </div>
+                <div class="project-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.elnooronline.tabukchamber&pcampaignid=web_share" target="_blank" class="btn btn-play"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="https://apps.apple.com/eg/app/tabuk-chamber-%D8%BA%D8%B1%D9%81%D8%A9-%D8%AA%D8%A8%D9%88%D9%83/id6758669687" target="_blank" class="btn btn-apple"><i class="fab fa-apple"></i> App Store</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="container" id="stats">
+        <h2 class="reveal">GitHub Stats</h2>
+        <div class="stats-container reveal">
+            <img src="https://github-readme-stats.vercel.app/api?username=alsaidmandor&show_icons=true&locale=en&theme=radical&bg_color=0b0f19&title_color=02569B&icon_color=38bdf8" alt="alsaidmandor stats" class="stats-img">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=alsaidmandor&show_icons=true&locale=en&layout=compact&theme=radical&bg_color=0b0f19&title_color=02569B" alt="top languages" class="stats-img">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2 class="reveal" style="font-size: 2rem;">Support Me</h2>
+        <a href="https://www.buymeacoffee.com/alsaidmandor" target="_blank" class="support-btn reveal" style="display: inline-block; margin-bottom: 2rem;">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+        </a>
+        
+        <p class="reveal">
+            <strong>Business Email:</strong> <a href="mailto:alsaidmandor8888@gmail.com">alsaidmandor8888@gmail.com</a><br>
+            <strong>Phone:</strong> +20 155 984 7533
+        </p>
+
+        <p class="copyright reveal">&copy; 2026 Alsaeid Mandor. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts for Animation -->
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 50;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+        // Trigger once on load
+        reveal();
+    </script>
 </body>
 </html>
