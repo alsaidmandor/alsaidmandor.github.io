@@ -56,57 +56,57 @@ My industry experience spans diverse domains including **ERP, FinTech, Real Esta
 ### مدارسكم App
 يتيح لك معرفة جدول الطالب وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن مراسلة أي معلم من خلال التطبيق أو الإدارة.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### دليلكلم App
 تطبيق دليلك هو دليل شامل وتطبيق فريد يهدف إلى تسهيل الحياة اليومية من خلال توفير مواقع الخدمات، والميزات، والمواعيد، والعروض. حمل التطبيق وتواصل مع دليلك.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### مدرسه الاوائل App
 تطبيق مدرسة الأوائل الخاصة يتيح للطالب معرفة الجدول الدراسي وجدول الامتحانات، وآخر الأخبار، والواجبات، والدروس، والرسوم المدرسية. كما يمكن لأي معلم التواصل من خلال التطبيق أو مراسلة الإدارة.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### Abber App (عبر)
 تطبيق عبر يقدم استشارات متخصصة في الأحلام والرؤى من خلال متخصصين وخبراء في مجال التعبير والتفسير والتحليل.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### محامينا App
 تطبيق محامينا يتيح لك العثور على محامٍ لتولي قضيتك في دقائق، كل ما هو مطلوب منك هو كتابة تفاصيل القضية ثم اختيار المحامي المناسب للعمل عليها. التطبيق يتيح لك التواصل مع عدد كبير من المحامين المحترفين بناءً على موقعك، كما يمكنك التواصل مع المحامي وإرسال تفاصيل القضية إليه أو حجز موعد معه.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### Taxi driver & Taxi User App
 iQTaxi هو تطبيق ذكي لحجز المشاوير مصمم لربط المستخدمين بالسائقين القريبين بسرعة وكفاءة. يوفر التطبيق تجربة سلسة وبديهية لحجز المشاوير، وتتبع السائقين في الوقت الفعلي، وإدارة المدفوعات. يتميز بواجهة مستخدم حديثة، وإدارة حالة قوية، وتكامل خلفي موثوق لضمان أداء سلس وقابلية للتوسع.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### NOVA X
 NOVA X هي منصة تعليمية حديثة مصممة لتزويد الطلاب بمحتوى تعليمي عالي الجودة من خلال مجموعة متنوعة من الدورات والبرامج التدريبية ومقاطع الفيديو التعليمية. هذه الموارد مصممة لمساعدة الطلاب على تطوير مهاراتهم وتحقيق أفضل النتائج الأكاديمية. يقدم التطبيق مزيجًا من الدورات المجانية والمدفوعة في مختلف المجالات، مع محتوى تعليمي يسهل الوصول إليه ومنظم جيدًا يمكن الطلاب من التعلم في أي وقت وفي أي مكان.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 <hr>
 
 ### غرفة تبوك | TABUK CHAMBER
 غرفة تبوك هي منصة رقمية شاملة مصممة لتزويد المستخدمين بوصول سهل إلى جميع الأنشطة والتعاميم واللجان والمقالات والخدمات التي تقدمها المنظمة.
 <br><br>
-<a href="https://play.google.com/store" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" height="40"></a>
-<a href="https://apps.apple.com/" target="_blank"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" height="40"></a>
+<a href="https://play.google.com/store" target="_blank"><img src="https://img.shields.io/badge/Get_it_on_Google_Play-blue?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play"></a>
+<a href="https://apps.apple.com/" target="_blank"><img src="https://img.shields.io/badge/Get%20it%20on%20app%20store-black.svg?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"></a>
 
 </div>
 
